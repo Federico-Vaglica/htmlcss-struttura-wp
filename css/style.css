@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: brown;
+}
+.logo {
+    width: 80vw;
+    heigth: 300px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+nav {
+    height: 50px;
+    width: 80vw;
+    margin: 0 auto;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 50px;
+    padding:0 10px;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: grey;
+}
+
+.mainCard {
+    width: 80vw;
+    height: 600px;
+    margin: 0 auto;
+    position: relative ;
+    display:inline-block;
+}
+
+.mainCard img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.intestazioneMainCard {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0.8;
+    text-shadow: 2px 2px rgb(0,0,0);
+    z-index: 3;
+    text-align: center;
+}
+
+.smallCardBox {
+    width: 80vw;
+    height: 200px;
+    background-color: violet;
+
+}
+
+.smallCard {
+    width: 30%;
+    height: 180px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    background-color: pink;
+}
+
+.footerBoxes {
+    width: 80vw;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 0 auto;
+}
+
+.footerBox {
+    width: 25vw;
+    height: 100px;
+    margin-left:20px;
+    margin-top: 20px;
+    float:left;
+    text-align:justify;
+}
