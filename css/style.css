@@ -33,7 +33,7 @@ nav {
 .main-container {
     width: 80vw;
     margin: 20px auto;
-    height: 1000px;
+    height: 100vh;
 }
 
 .left-container, .right-container {
@@ -60,6 +60,14 @@ main {
     background-color: green;
 }
 
+.article{
+    width:80%;
+    height: 300px;
+    background-color: black;
+    margin: auto ;
+    margin-bottom: 20px;
+
+}
 .archivio {
     width: 100%;
     height: 200px;
