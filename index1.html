@@ -1,26 +1,32 @@
-
 <!DOCTYPE html>
-<html lang="it" dir="ltr">
+<html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Struttura</title>
+        <title>Struttura Wp</title>
         <link rel="stylesheet" href="css/style1.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container-header">
             <header></header>
-            <div class="clearfix">
-                <aside>
-                    <div class="contenitore"></div>
-                </aside>
-                <main>
-                    <div class="contenitore"></div>
-                </main>
-                <aside>
-                    <div class="contenitore"></div>
-                    <div class="contenitore"></div>
-                </aside>
-            </div>
+            <nav></nav>
+        </div>
+        <div class="container-main">
+            <aside class="left clearfix">
+                <div class="pages"></div>
+                <div class="archives"></div>
+                <div class="meta"></div>
+            </aside>
+            <main class="clearfix">
+                <div class="mainPart">
+                </div>
+            </main>
+            <aside class="right clearfix">
+                <div class="pages"></div>
+                <div class="archives"></div>
+            </aside>
+        </div>
+
+        <div class="container-footer">
             <footer></footer>
         </div>
     </body>
